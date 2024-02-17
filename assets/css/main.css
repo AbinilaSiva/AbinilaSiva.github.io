@@ -5937,7 +5937,6 @@ sup {
   max-width: 500px;
   max-height: 500px;
   height: auto;
-  display: block;
   border-radius: 20%;
 }
 .footer a:active,
