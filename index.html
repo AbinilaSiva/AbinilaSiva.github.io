@@ -11,7 +11,7 @@
       content="Abinila Siva, Abinila, Abi Siva, Abinila S, Abinila SIVA UCR, Abinila Siva .ai, abinilasiva , Siva"
     />
 
-    <link rel="shortcut icon" href="./assets/img/icon.jpg" />
+    <link rel="shortcut icon" href="./assets/img/ai.jpg" />
     <title>Abinila Siva</title>
 
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -83,9 +83,6 @@
         <h3>
           Educational Foundation:
         </h3>
-        <p>
-          Armed with a Bachelor of Engineering in Computer Science and Engineering from Kumaraguru College,Anna University, I furthered my education with a Master's from UC Riverside, achieving a GPA of 3.69. My academic projects span a wide range, from AI-driven financial analysis chatbots to emotion detection in videos and geospatial wildfire risk prediction, each underscoring my ability to apply theoretical knowledge to real-world problems.
-        </p>
         <h3>
           Looking Forward:
         </h3>
@@ -110,7 +107,6 @@
         </div>
         <div class="contents-right">
             <h3>AI-Driven Financial Analysis Chatbot</h3>
-            <p>An advanced GUI-based chatbot for real-time financial market insights, utilizing web scraping with BeautifulSoup and Selenium, and AI models including GPT-3.5 with Yahoo Finance API, and LLaMA-2 with RAG for finance-related Q&A.</p>
             
             <h4>Project Overview:</h4>
             <p>This project showcases an advanced, GUI-based chatbot designed to provide users with real-time financial market insights. Leveraging the power of web scraping and AI, the chatbot offers a dynamic interface for querying up-to-the-minute financial data and market outlooks.</p>
@@ -138,18 +134,13 @@
         <div class="contents-left">
             <h3>Emotion Detection from Tom and Jerry Videos</h3>
             <p>
-                Diving into the intersection of machine learning and computer vision, this project pioneered the development of an emotion detection system tailored for the dynamic and expressive world of "Tom and Jerry" animations. By meticulously extracting and labeling video frames from YouTube clips, we crafted a specialized dataset to identify and classify four fundamental emotions: Happy, Angry, Sad, and Surprised.
-            </p>
+                This project marries machine learning with computer vision to create an emotion detection system for "Tom and Jerry" animations. A custom dataset was developed by labeling video frames for emotions like Happy, Angry, Sad, and Surprised using the LabelImg tool. The system employs the YOLO algorithm for object detection and VGG-19 CNN for classifying emotions, achieving a notable 82.9% accuracy in recognizing emotional expressions.
             <h4>Technical Highlights:</h4>
             <ul>
                 <li><strong>Dataset Construction:</strong> Leveraged the LabelImg tool for detailed annotation, creating a custom dataset from "Tom and Jerry" video frames.</li>
-                <li><strong>Object Detection:</strong> Implemented the YOLO (You Only Look Once) algorithm for robust and real-time object detection within the animated frames.</li>
-                <li><strong>Emotion Classification:</strong> Utilized the VGG-19 Convolutional Neural Network model for accurate emotion classification, showcasing the deep learning model's capability to discern complex emotional states.</li>
+                <li><strong>Object Detection:</strong> Implemented the YOLO (You Only Look Once) algorithm for pinpointing emotions in real-time.</li>
+                <li><strong>Emotion Classification:</strong> Utilized the VGG-19 Convolutional Neural Network for distinguishing complex emotions with high accuracy.</li>
             </ul>
-            <h4>Achievements:</h4>
-            <p>
-                The project achieved an impressive 82.9% accuracy rate in emotion detection, underscoring the effectiveness of combining advanced object detection and CNN models for emotion classification in animated content.
-            </p>
             <h4>Technologies Used:</h4>
             <p>Python, OpenCV, YOLO, VGG-19 CNN, LabelImg.</p>
             <p align="center">
@@ -165,7 +156,7 @@
         <div class="contents-right">
             <h3>Enhanced & Detoxified Dialogue Summarization with FLAN-T5</h3>
             <p>
-                Leveraging the cutting-edge FLAN-T5 model, this project introduces a novel approach to dialogue summarization, incorporating zero, one, and many-shot inferences, along with prompt engineering, to significantly enhance summary quality. Through the strategic use of full and PEFT fine-tuning, alongside Proximal Policy Optimization (PPO) for content detoxification, it sets new standards for generating accurate and ethically aligned text summaries.
+                This project elevates dialogue summarization by utilizing FLAN-T5 for a spectrum of inferences and prompt engineering, bolstered by PEFT fine-tuning and PPO for content detoxification. It delivers summaries with unparalleled accuracy and ethical alignment.
             </p>
             <h4>Technical Highlights:</h4>
             <ul>
@@ -173,9 +164,8 @@
                 <li><strong>PEFT Fine-Tuning:</strong> Conducted precise model tuning with Prompt Engineering with Fine-Tuned templates to optimize summarization performance.</li>
                 <li><strong>Detoxification via PPO:</strong> Applied Proximal Policy Optimization to effectively reduce toxic content, ensuring integrity in generated text.</li>
             </ul>
-            <h4>Achievements:</h4>
-            <p>
-                The project culminated in achieving significant enhancements in dialogue summarization, validated through ROUGE metrics, demonstrating a marked improvement in accuracy and content safety.
+            <h4>Outcomes:</h4>
+            <p> The initiative resulted in notable improvements in summarization precision, as evidenced by ROUGE metric evaluations, enhancing both accuracy and content quality.
             </p>
             <h4>Technologies Used:</h4>
             <p>FLAN-T5, Proximal Policy Optimization (PPO), ROUGE metrics, Python.</p>
@@ -189,16 +179,13 @@
         <div class="contents-left">
             <h3>Anime Recommendation System</h3>
             <p>
-                Developed a scalable Anime Recommendation System, leveraging the power of PySpark's ALS (Alternating Least Squares) matrix factorization method for collaborative filtering. This system was designed to process a substantial 7.35GB dataset, significantly enhancing user personalization and recommendation accuracy.
-            </p>
-            <p>
-                The backend of the system was engineered with parallel data processing pipelines in PySpark, integrated with Flask to manage API endpoints efficiently. On the frontend, React was utilized to create an engaging and interactive user experience, allowing for seamless navigation and exploration of recommended anime titles.
-            </p>
-            <h4>Project Highlights:</h4>
+                Engineered a robust Anime Recommendation System using PySpark's ALS for collaborative filtering, capable of handling a 7.35GB dataset to refine user personalization and accuracy. The system features a PySpark-driven backend with Flask API integration and a React frontend for an immersive user experience.
+             </p>
+            <h4>Key Features:</h4>
             <ul>
-                <li><strong>Scalable System Design:</strong> Employed PySpark for efficient handling and processing of large-scale data, ensuring the system's scalability.</li>
-                <li><strong>Collaborative Filtering:</strong> Utilized ALS matrix factorization for collaborative filtering, achieving high levels of personalization in recommendations.</li>
-                <li><strong>Full Stack Development:</strong> Combined Flask and React to create a robust backend and a dynamic frontend, facilitating a comprehensive and intuitive application.</li>
+                <li><strong>Scalable Architecture:</strong> Efficient data management with PySpark ensures adaptability to large datasets.</li>
+                <li><strong>Personalized Recommendations:</strong> ALS matrix factorization fine-tunes user-specific suggestions.</li>
+                <li><strong>Full-Stack Interface:</strong> A synergistic backend and frontend development with Flask and React create a seamless platform.</li>
             </ul>
             <h4>Technologies Used:</h4>
             <p>PySpark, ALS Matrix Factorization, Flask, React, Collaborative Filtering.</p>
@@ -212,14 +199,11 @@
         <div class="contents-right">
             <h3>Geospatial Wildfire Risk Prediction</h3>
             <p>
-                In a groundbreaking effort to enhance wildfire management and prevention strategies, this project introduced a machine learning-based system capable of predicting wildfire dangers with remarkable precision. Utilizing the U-Net convolutional neural network model, the system segments and analyzes satellite spatial data, including Normalized Difference Vegetation Index (NDVI), Land Surface Temperature (LST), and thermal anomalies, sourced from the Moderate Resolution Imaging Spectroradiometer (MODIS) instruments.
+              This project pioneers a machine learning system using U-Net to predict wildfires from satellite data with high precision. Analyzing indices like NDVI and LST from MODIS, and integrating with ArcGIS for detailed visualizations, it substantially aids in early detection and disaster readiness.
             </p>
-            <p>
-                The project further integrates advanced data visualization and analysis through ArcGIS, offering a comprehensive and detailed representation of wildfire risks. This combination of cutting-edge machine learning techniques and geospatial analysis tools provides invaluable insights for early wildfire detection and risk assessment, contributing significantly to disaster preparedness and environmental protection efforts.
-            </p>
-            <h4>Key Features:</h4>
+            <h4>Highlights:</h4>
             <ul>
-                <li><strong>Advanced Machine Learning:</strong> Employed the U-Net Model for precise segmentation of satellite spatial data, enabling effective wildfire risk prediction.</li>
+                <li><strong>U-Net for Spatial Data:</strong> Precision segmentation to assess wildfire risks.</li>
                 <li><strong>Geospatial Data Analysis:</strong> Utilized ArcGIS for sophisticated visualization and in-depth analysis of geospatial data related to wildfire risks.</li>
                 <li><strong>Comprehensive Risk Assessment:</strong> Integrated various data points (NDVI, LST, thermal anomalies) for a holistic view of potential wildfire hazards.</li>
             </ul>
@@ -235,10 +219,7 @@
         <div class="contents-left">
             <h3>2D Object Detection on RADAR Dataset in Adverse Weather</h3>
             <p>
-                From August to October 2023, this project advanced the field of autonomous vehicle navigation by implementing Faster R-CNN with a ResNet 101 backbone for 2D object detection. Focused on the RADIATE dataset, it underscored the utility of radar sensors in adverse weather conditions, significantly enhancing the reliability and safety of autonomous driving technologies in fog, rain, and snow.
-            </p>
-            <p>
-                Demonstrating radar's superiority over traditional camera sensors in extreme weather, the project achieved a 35% increase in precision for object detection. This breakthrough provides a crucial step forward in developing autonomous vehicles that can safely navigate through challenging environmental conditions.
+              Enhancing autonomous vehicle navigation, this initiative implemented Faster R-CNN with ResNet 101 for 2D radar-based object detection under challenging weather. Using the RADIATE dataset, it showcased a significant improvement in detection precision, reinforcing radar's advantage over cameras in poor visibility conditions.
             </p>
             <h4>Technical Highlights:</h4>
             <ul>
