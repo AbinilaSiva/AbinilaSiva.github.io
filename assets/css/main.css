@@ -5939,7 +5939,7 @@ sup {
   /* height: auto; */
   /* border-radius: 20%; */
   /* max-width: 90vw;  /* max width of the image as 90% of the viewport width */
-  max-height: 90vh; 
+  max-height: 50vh; 
   width: auto;      
   height: auto;     
   border-radius: 20%;
