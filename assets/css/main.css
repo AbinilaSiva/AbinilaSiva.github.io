@@ -5934,11 +5934,9 @@ sup {
   margin: 10px auto;
 }
 .avatar img {
-    width: auto; /* Adjust width as needed */
-    height: auto; /* Adjust height as needed */
-    max-width: 50%; /* Adjust max-width as needed */
-    display: block; /* Make sure it's a block-level element */
-    margin: 0 auto; /* Center the image in the div */
+  max-width: 750px;
+  max-height: 750px;
+  border-radius: 20%;
 }
 .footer a:active,
 .footer a:hover,
