@@ -5934,8 +5934,8 @@ sup {
   margin: 10px auto;
 }
 .avatar img {
-  max-width: 750px;
-  max-height: 750px;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 20%;
 }
 .footer a:active,
