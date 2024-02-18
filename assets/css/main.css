@@ -5963,19 +5963,6 @@ sup {
     width: 80%;
   }
 }
-#work-experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 960px;
-  margin: 0 auto;
-}
-@media only screen and (min-width: 550px) {
-  #work-experience {
-    width: 80%;
-  }
-}
 .user-projects {
   margin: 20px auto;
 }
@@ -6051,6 +6038,95 @@ body {
   transition: color 0.3s ease-in, background-color 0.3s ease-in,
     border-color 0.3s ease-in;
 }
+
+#work-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 550px) {
+    #work-experience {
+      width: 80%;
+    }
+  }
+  .user-work-experience {
+    margin: 20px auto;
+  }
+  .user-work-experience img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .user-work-experience h5,
+  body {
+    margin: 0;
+  }
+  .user-work-experience li {
+    color: #782849;
+    font-size: 1.1rem;
+  }
+  .user-work-experience p {
+    margin-right: 5px;
+  }
+  @media only screen and (min-width: 550px) {
+    .contents-left,
+    .contents-right {
+      float: right;
+      float: top;
+      width: 48%;
+      margin: 0;
+      /* top: 50%; */
+    }
+    .contents-left {
+      float: left;
+    }
+    .images-right {
+      float: right;
+      width: 48%;
+    }
+    .images-right img {
+      float: right;
+    }
+    .images-left {
+      float: left;
+      width: 48%;
+    }
+    .images-left img {
+      float: left;
+    }
+  }
+  .work-experience-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px;
+    color: #782849;
+    background-color: transparent;
+    border: 1px solid #782849;
+    border-radius: 10px;
+    text-align: center;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out,
+      border-color 0.3s ease-out;
+  }
+  .text-link {
+    color: #9f2f5e;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-out;
+  }
+  .work-experience-link:active,
+  .work-experience-link:hover {
+    background-color: #782849;
+    border-color: #782849;
+    color: #fff;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in,
+      border-color 0.3s ease-in;
+  }
 .footer {
   background: #782849;
   padding: 10px 0;
